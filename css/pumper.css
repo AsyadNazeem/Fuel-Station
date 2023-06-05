@@ -1,0 +1,234 @@
+.navbar-nav{
+    float: right;
+    margin-left: 95%;
+    font-family: Times;
+    border: dodgerblue;
+}
+
+.navbar-nav:hover{
+    color: darkblue;
+}
+
+.navbar-brand{
+    font-family: Times;
+
+}
+
+.fuel-station-name{
+    font-family: Times;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.card {
+    float: none;
+    width: 430px;
+    margin-left:35%;
+    margin-right:20px;
+    margin-top:10px;
+    border-radius: 10px;
+    background-color: #EDF5E1;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.address {
+    text-align: center;
+}
+
+.clsss1{
+
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.fuel_type{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+
+}
+
+.type{
+    text-align: center;
+
+}
+
+#submit1{
+
+    width:100%;
+    height: 40px;
+    border: none;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#submit1:hover{
+    background-color: white;
+    color: black;
+}
+
+.liters{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 350px;
+    height :50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left:20px;
+
+}
+
+.price{
+    margin-top: 10px;
+    width: 350px;
+    height :50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left:20px;
+    margin-bottom: 15px;
+}
+
+.fuel-station-heading{
+
+    margin-bottom: 40px;
+
+}
+
+
+@media (max-width: 800px) {
+
+    .navbar-nav{
+        float: none;
+        margin-left: 10px;
+    }
+    .clsss1{
+        margin-left: 0px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    .box2{
+        margin-left: 0;
+
+    }
+
+    .fuel-station-heading{
+        margin-top: 10% ;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 10%;
+        width: 90%;
+        background-color: #EDF5E1;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 20px;
+    }
+
+    .liters{
+        float: right;
+        width:55%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border:none;
+        padding-left: 15px;
+        height: 28px;
+        margin-top: 0;
+    }
+
+    .price{
+        float: right;
+        width: 55%;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        border: none;
+        padding-left: 15px;
+        margin-top: 0;
+        height: 28px;
+
+    }
+
+    .box2{
+        margin-top: 30px;
+    }
+
+    .fuel_type{
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+
+    }
+
+    .option {
+        margin-left: 20%;
+    }
+
+    #fuel-type{
+        width: 90%;
+        height: 30px;
+        border: 1px;
+        border-radius: 8px;
+
+    }
+
+    .drop{
+        margin-top: 15px;
+        text-align: center;
+
+    }
+
+    .btn-group{
+        margin-left: 15px;
+        width:90%;
+
+    }
+
+    /*button {*/
+    /*    margin-top: 10px;*/
+    /*    border: none;*/
+    /*    background-color: #05386B;*/
+    /*    color: white;*/
+    /*    border-radius: 8px;*/
+
+    /*}*/
+
+    #submit1 {
+        margin-top:-30px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        width: 90%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    #submit1:hover{
+        background-color: white;
+        color: black;
+    }
+
+
+
+}
